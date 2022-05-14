@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dota 2 Bootstrap</title>
+    <link
+      rel="shortcut icon"
+      href="/img/dota2favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/font-awesome/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap-social/bootstrap-social.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- endbuild -->
+  </head>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" height="30" width="30" href="/">
+          <img src="/img/dota2logo.png" alt="logo" />
+        </a>
+
+        <!-- collapse button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar_menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- menu -->
+        <div class="collapse navbar-collapse" id="navbar_menu">
+          <ul class="navbar-nav ml-sm-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <span class="fa fa-home fa-lg"></span> Home
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/aboutdota.html">
+                <span class="fa fa-info fa-lg"></span> About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/news.html">
+                <span class="fa fa-newspaper-o fa-lg"></span> News
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="jumbotron">
+      <div class="container">
+        <div class="row row-header h-100">
+          <div class="col-12 col-sm-6 pt-sm-0 pt-3 my-auto">
+            <img src="/img/aboutDota.jpg" class="img-fluid" />
+          </div>
+          <div class="col-12 col-sm-6 my-auto">
+            <h1>Dota 2 review</h1>
+            <h4>Most prize pool esports game ever.</h4>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <ol class="col-12 breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+          <li class="breadcrumb-item active">About Dota</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3>About Dota</h3>
+          <hr />
+        </div>
+      </div>
+
+      <div class="row row-content">
+        <div class="col-12 col-sm-6">
+          <h2>History</h2>
+          <p>
+            Dota 2 was first made available to the public at Gamescom in 2011,
+            coinciding with the inaugural International championship, the game's
+            premier esport tournament event. At the event, Valve began sending
+            out closed beta invitations to DotA players and attendees for the
+            Microsoft Windows version of the game.
+          </p>
+          <p>
+            Dota 2 is a multiplayer online battle arena (MOBA) video game in
+            which two teams of five players compete to collectively destroy a
+            large structure defended by the opposing team known as the
+            "Ancient", whilst defending their own.
+          </p>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <h3 class="card-header bg-primary text-white">
+              The International 2021
+            </h3>
+            <div class="card-body">
+              <dl class="row">
+                <dt class="col-6">Started</dt>
+                <dd class="col-6">17 July. 2021</dd>
+                <dt class="col-6">Sponsor</dt>
+                <dd class="col-6">Valve</dd>
+                <dt class="col-6">Location</dt>
+                <dd class="col-6">Bucharest</dd>
+                <dt class="col-6">Prize Pool</dt>
+                <dd class="col-6">$40,018,195</dd>
+                <dt class="col-6">Teams</dt>
+                <dd class="col-6">18</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="card card-body bg-light">
+          <blockquote class="blockquote">
+            <p class="mb-0">
+              I’ve been to hell and back, and back to hell, and back, and now
+              back again.
+            </p>
+            <footer class="blockquote-footer">
+              Lion,
+              <cite title="Source Title"> Valve, 2022 </cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- use tooltip -->
+      <div class="row row-content">
+        <div class="col-12">
+          <h2>All time best player</h2>
+          <div class="d-flex justify-content-center">
+            <a data-toggle="tooltip" data-placement="bottom" title="N0tail">
+              <img
+                class="topPlayerList img-fluid"
+                src="/img/player/N0tail.png"
+                alt=""
+              />
+            </a>
+
+            <a data-toggle="tooltip" data-placement="bottom" title="Miracle">
+              <img
+                class="topPlayerList img-fluid"
+                src="/img/player/Miracle-.png"
+                alt=""
+              />
+            </a>
+
+            <a data-toggle="tooltip" data-placement="bottom" title="Sumail">
+              <img
+                class="topPlayerList img-fluid"
+                src="/img/player/Sumail.png"
+                alt=""
+              />
+            </a>
+
+            <a data-toggle="tooltip" data-placement="bottom" title="JerAx">
+              <img
+                class="topPlayerList img-fluid"
+                src="/img/player/JerAx.png"
+                alt=""
+              />
+            </a>
+
+            <a data-toggle="tooltip" data-placement="bottom" title="Dendi">
+              <img
+                class="topPlayerList img-fluid"
+                src="/img/player/Dendi.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end tooltip -->
+
+      <div class="row row-content">
+        <div class="col-12">
+          <h2>Top Player Quotes</h2>
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" role="tab" id="Dendi">
+                <h3 class="mb-0">
+                  <a data-toggle="collapse" data-target="#dendi">
+                    Dendi <small>The international 1 champion</small>
+                  </a>
+                </h3>
+              </div>
+
+              <div class="collapse show" id="dendi" data-parent="#accordion">
+                <div class="card-body">
+                  <ul class="d-none d-sm-block">
+                    <li>MMR is just a number.</li>
+                    <li>
+                      You can be 9K MMR, yeah, you're going to be good at
+                      playing alone, but in a team it's a totally different
+                      story!
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" role="tab" id="Dhanahead">
+                <h3 class="mb-0">
+                  <a data-toggle="collapse" data-target="#danny">
+                    Johan "Notail" Sundstein <small>Winner of TI8 TI9</small>
+                  </a>
+                </h3>
+              </div>
+
+              <div class="collapse" id="danny" data-parent="#accordion">
+                <div class="card-body">
+                  <ul class="d-none d-sm-block">
+                    <li>
+                      I strongly believe that if I woke up the morning and had
+                      to play the TI final, I would play the best dota in my
+                      life and that's all that would matter to me, if I played
+                      my very best... nothing else would matter.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-content">
+        <h2>List of tournaments</h2>
+        <table class="table table-bordered text-center">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Year</th>
+              <th scope="col">Champion</th>
+              <th scope="col">Total purse</th>
+              <th scope="col">Date</th>
+              <th scope="col">Venue</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">2017</th>
+              <td>Team Liquid</td>
+              <td>$24,787,916</td>
+              <td>August 7–12</td>
+              <td>KeyArena (Seattle)</td>
+            </tr>
+            <tr>
+              <th scope="row">2018</th>
+              <td>OG</td>
+              <td>$25,532,177</td>
+              <td>August 20–25</td>
+              <td>Rogers Arena (Vancouver)</td>
+            </tr>
+            <tr>
+              <th scope="row">2019</th>
+              <td>OG</td>
+              <td>$34,330,068</td>
+              <td>August 20–25</td>
+              <td>Mercedes-Benz Arena (Shanghai)</td>
+            </tr>
+            <tr>
+              <th scope="row">2020</th>
+              <td colspan="2">Cancelled</td>
+              <td>August 18–23</td>
+              <td>Avicii Arena (Stockholm)</td>
+            </tr>
+            <tr>
+              <th scope="row">2021</th>
+              <td>Spirit</td>
+              <td>$40,018,195</td>
+              <td>October 7–17</td>
+              <td>Arena Națională (Bucharest)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 offset-1 col-sm-2">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="/aboutus.html">About</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="/contactus.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-7 col-sm-5">
+            <h5>Our Address</h5>
+            <address>
+              65, Swin hoe sarani<br />
+              Garia, Kolkata<br />
+              India<br />
+              <i class="fa fa-phone fa-lg"></i>: +91 7055139448<br />
+              <i class="fa fa-fax fa-lg"></i>: 033 2115 0335<br />
+              <i class="fa fa-envelope fa-lg"></i>:
+              <a href="mailto:confusion@food.net">about@dota.in</a>
+            </address>
+          </div>
+          <div class="col-12 col-sm-4 align-self-center">
+            <div class="text-center">
+              <a
+                class="btn btn-social-icon btn-google"
+                href="http://google.com/+"
+                ><i class="fa fa-google-plus fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-facebook"
+                href="http://www.facebook.com/profile.php?id="
+                ><i class="fa fa-facebook fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-linkedin"
+                href="http://www.linkedin.com/in/"
+                ><i class="fa fa-linkedin fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-twitter"
+                href="http://twitter.com/"
+                ><i class="fa fa-twitter fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-google"
+                href="http://youtube.com/"
+                ><i class="fa fa-youtube fa-lg"></i
+              ></a>
+              <a class="btn btn-social-icon" href="mailto:"
+                ><i class="fa fa-envelope fa-lg"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="text-center p-2">
+        <p>© Copyright 2022 Dota 2 Bootstrap</p>
+      </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

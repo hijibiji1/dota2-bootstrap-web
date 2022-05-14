@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dota 2 Bootstrap</title>
+    <link
+      rel="shortcut icon"
+      href="/img/dota2favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/font-awesome/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap-social/bootstrap-social.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- endbuild -->
+  </head>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" height="30" width="30" href="/">
+          <img src="/img/dota2logo.png" alt="logo" />
+        </a>
+
+        <!-- collapse button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar_menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- menu -->
+        <div class="collapse navbar-collapse" id="navbar_menu">
+          <ul class="navbar-nav ml-sm-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <span class="fa fa-home fa-lg"></span> Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/aboutdota.html">
+                <span class="fa fa-info fa-lg"></span> About
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/news.html">
+                <span class="fa fa-newspaper-o fa-lg"></span> News
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row pt-5">
+        <ol class="col-12 breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+          <li class="breadcrumb-item active">About Dota</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="nav nav-pills" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="pill" href="#pills-news">
+            News
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#pills-update">
+            Updates
+          </a>
+        </li>
+      </ul>
+
+      <!-- table content -->
+      <div class="tab-content">
+        <!-- news pill -->
+        <div
+          class="tab-pane fade show active"
+          id="pills-news"
+          role="tabpanel"
+          aria-labelledby="pills-news-tab"
+        >
+          <!-- news block -->
+          <div class="row row-content align-items-center">
+            <div class="media">
+              <img
+                class="newsimg d-flex mr-3 img-thumbnail align-self-center"
+                src="/img/news/Spring Cleaning Update.png"
+                alt="Spring Cleaning Update"
+              />
+              <div class="media-body">
+                <h2 class="mt-0">Spring Cleaning Update</h2>
+                <p class="d-none d-sm-block">
+                  There's nothing creeps enjoy more than swapping out swords for
+                  brooms and sweeping up the barracks. Fortunately for us, that
+                  means it's time to enjoy the fruits of their janitorial
+                  efforts as today's patch opens the windows and doors of Dota
+                  for the Spring Cleaning Update for 2022 — focused on bug fixes
+                  and a passel of quality-of-life improvements.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-content align-items-center">
+            <div class="media">
+              <img
+                class="d-flex ml-3 img-thumbnail align-self-center order-sm-last"
+                src="/img/news/Stockholm Major.jpg"
+                alt="Stockholm"
+              />
+              <div class="media-body">
+                <h2>The Stockholm Major Fantasy</h2>
+                <p class="d-none d-sm-block">
+                  The Eastern Europe Qualifier tournament is now complete after
+                  5 days of intense Dota. Congratulations to BetBoom, Team
+                  Spirit, and Mind Games who will now join teams from the around
+                  the world at the Stockholm Major.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-content align-items-center">
+            <div class="media">
+              <img
+                class="d-flex mr-3 img-thumbnail align-self-center"
+                src="/img/news/Dota Plus Update.jpg"
+                alt="Dota Plus Update"
+              />
+              <div class="media-body">
+                <h2>Dota Plus Update — Spring 2022</h2>
+                <p class="d-none d-sm-block">
+                  As spring winds arrive to help break winter's final grip, it's
+                  time to welcome a new seasonal Dota Plus update — ushering
+                  with it new Plus features arriving from the latest Battle
+                  Pass, updated seasonal quests and guild rewards, and an
+                  all-new treasure to explore.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- update pill -->
+        <div
+          class="tab-pane fade"
+          id="pills-update"
+          role="tabpanel"
+          aria-labelledby="pills-update-tab"
+        >
+          <!-- update block -->
+          <div class="row row-content">
+            <div class="col-12">
+              <h2>Latest Patch Update</h2>
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header" role="tab">
+                    <h3 class="mb-0">
+                      <a data-toggle="collapse" data-target="#Update110322">
+                        Dota 2 Update <small>MARCH 12, 2022</small>
+                      </a>
+                    </h3>
+                  </div>
+
+                  <div
+                    class="collapse show"
+                    id="Update110322"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      <ul class="d-none d-sm-block">
+                        <li>
+                          Game State Integration now requires the command-line
+                          option "-gamestateintegration" to function. This is
+                          because there can be a per-frame performance impact to
+                          using game state integration.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab">
+                    <h3 class="mb-0">
+                      <a data-toggle="collapse" data-target="#Update250222">
+                        Gameplay Update
+                        <small>FEBRUARY 25, 2022</small>
+                      </a>
+                    </h3>
+                  </div>
+
+                  <div
+                    class="collapse"
+                    id="Update250222"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      <ul class="d-none d-sm-block">
+                        <li>
+                          Primal Beast turn rate increased from 0.5 to 0.6
+                        </li>
+                        <li>Onslaught run speed increased from 1150 to 1200</li>
+                        <li>
+                          Trample mana cost decreased from 90/95/100/105 to
+                          90/85/80/75
+                        </li>
+                        <li>
+                          Trample cooldown decreased from 30/28/26/24 to
+                          30/27/24/21
+                        </li>
+                        <li>
+                          Trample base damage increased from 20/30/40/50 to
+                          20/35/50/65
+                        </li>
+                        <li>Trample now has correct dispel rules</li>
+                        <li>Uproar stack duration increased from 15s to 20s</li>
+                        <li>
+                          Pulverize now works with items that increase cast
+                          range
+                        </li>
+                        <li>
+                          Primal Beast Level 20 Trample damage talent increased
+                          from +20% to +30%
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" role="tab">
+                      <h3 class="mb-0">
+                        <a data-toggle="collapse" data-target="#Update041121">
+                          Dota 2 Update <small>NOVEMBER 4, 2021</small>
+                        </a>
+                      </h3>
+                    </div>
+
+                    <div
+                      class="collapse"
+                      id="Update041121"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body">
+                        <ul class="d-none d-sm-block">
+                          <li>
+                            Fixed a bug with tower target selection when the
+                            tower's current target is very near the limit of a
+                            tower's attack range.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 offset-1 col-sm-2">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="/aboutus.html">About</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="/contactus.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-7 col-sm-5">
+            <h5>Our Address</h5>
+            <address>
+              65, Swin hoe sarani<br />
+              Garia, Kolkata<br />
+              India<br />
+              <i class="fa fa-phone fa-lg"></i>: +91 7055139448<br />
+              <i class="fa fa-fax fa-lg"></i>: 033 2115 0335<br />
+              <i class="fa fa-envelope fa-lg"></i>:
+              <a href="mailto:confusion@food.net">about@dota.in</a>
+            </address>
+          </div>
+          <div class="col-12 col-sm-4 align-self-center">
+            <div class="text-center">
+              <a
+                class="btn btn-social-icon btn-google"
+                href="http://google.com/+"
+                ><i class="fa fa-google-plus fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-facebook"
+                href="http://www.facebook.com/profile.php?id="
+                ><i class="fa fa-facebook fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-linkedin"
+                href="http://www.linkedin.com/in/"
+                ><i class="fa fa-linkedin fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-twitter"
+                href="http://twitter.com/"
+                ><i class="fa fa-twitter fa-lg"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-google"
+                href="http://youtube.com/"
+                ><i class="fa fa-youtube fa-lg"></i
+              ></a>
+              <a class="btn btn-social-icon" href="mailto:"
+                ><i class="fa fa-envelope fa-lg"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="text-center p-2">
+        <p>© Copyright 2022 Dota 2 Bootstrap</p>
+      </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
